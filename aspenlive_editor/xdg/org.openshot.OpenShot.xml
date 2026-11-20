@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<mime-info xmlns='http://www.freedesktop.org/standards/shared-mime-info'>
+  <mime-type type="application/vnd.openshot-qt-project">
+    <comment>AspenLive project</comment>
+    <glob pattern="*.alp"/>
+    <glob pattern="*.osp"/>
+    <generic-icon name="openshot-qt-doc"/>
+  </mime-type>
+</mime-info>
+

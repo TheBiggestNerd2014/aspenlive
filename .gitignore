@@ -1,0 +1,42 @@
+# Local full rebuild helper (keep private)
+build-aspenlive.ps1
+
+# Editor / IDE
+.vscode/
+.idea/
+.settings/
+*.DS_Store
+*~
+
+# Python
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+
+# Native + freeze build outputs
+**/build/
+**/cmake-build-*/
+aspenlive_editor/build/
+aspenlive_editor/dist/
+aspenlive_editor/installer/Output/
+aspenlive_editor/installer/_iscc.log
+aspenlive_engine/build*/
+aspenlive_ae/build*/
+
+# Caches / generated media
+aspenlive_editor/src/images/cache/
+protobuf_data/
+doc/_build/
+doc/locale/.doctrees/
+
+# Local logs and crash dumps
+crash-logs/
+*.log
+
+# Cursor / agent
+.cursor/
+agent-transcripts/
+
+_text_size.txt
